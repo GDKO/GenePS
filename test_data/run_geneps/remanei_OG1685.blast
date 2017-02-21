@@ -1,0 +1,17 @@
+# TBLASTN 2.4.0+
+# Query: OrthologousGroups_I3.5.OGoverlapp.txt
+# Database: /home/jgravemeyer/Dropbox/MSc_project/data/testing_GenePS/inf3.5/Blast_dbs/c_brenneri/c_brenneri.PRJNA20035.WS249.genomic.fa
+# Fields: query acc., subject acc., evalue, q. start, q. end, s. start, s. end, query length, sbjct frame
+# 11 hits found
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig6	1.18e-47	355	466	1484396	1484061	466	-3
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig6	3.43e-24	58	166	1486419	1486057	466	-2
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig6	2.64e-17	201	312	1485677	1485309	466	-3
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig6	3.36e-16	1	54	1487025	1486792	466	-2
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig231	3.33e-47	355	466	18879	19214	466	3
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig231	3.36e-24	58	166	15955	16317	466	1
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig231	1.31e-17	201	312	16697	17065	466	2
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig231	2.71e-16	1	54	15349	15582	466	1
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig15	2.69e-07	1	56	319687	319875	466	1
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig15	1.90e-06	353	410	322108	322281	466	1
+OrthologousGroups_I3.5.OGoverlapp.txt	Cbre_Contig419	6.42e-07	1	52	65160	65339	466	3
+# BLAST processed 1 queries

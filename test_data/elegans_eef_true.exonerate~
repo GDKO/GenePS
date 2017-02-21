@@ -1,0 +1,634 @@
+Command line: [exonerate -m p2g:b --softmaskquery no -E yes -Q protein -T dna -n 1 --softmasktarget no --showvulgar no --minintron 20 --maxintron 50000 --showalignment yes --showtargetgff yes -q /tmp/tmpkuex454x/eef_3.5.consensus -t /tmp/tmpl3v19oqu]
+Hostname: [NUC8]
+
+** (process:28892): WARNING **: Exhaustively generating suboptimal alignments will be VERY SLOW
+
+C4 Alignment:
+------------
+         Query: eef_3.5
+        Target: I;9859005-9873867
+         Model: protein2genome:bestfit
+     Raw score: 485
+   Query range: 0 -> 840
+  Target range: 4791 -> 9857
+
+    1 : ValAsnPheThrValAspGluIleArgAlaLeuMetAspArgLysLysAsnIleArgAsnMe :   21
+          !!:!!:!  !! !:!!  !  !!:!  !|||..! ! ! !   :!!:!!|||||||||:!
+        ***SerTyrPheGluAsnLeuCysLysLysLeuGlnLysProAlaGluHisIleArgAsnVa
+ 4792 : TAAAGCTATTTTGAAAATTTATGTAAAAAATTGCAGAAACCCGCTGAGCATATCCGAAATGT : 4852
+
+   22 : tSerValIleAlaHisValAspHisGlyLysSerThrLeuThrAspSerLeuValSerLysA :   42
+        :!!!:!!:!!|||||||||||||||||||||!!!!:!!!!.!!|||||||||||||||    
+        lCysLeuValAlaHisValAspHisGlyLysThrSerPheAlaAspSerLeuValSerAlaA
+ 4853 : CTGTCTTGTCGCTCACGTGGATCATGGAAAAACCAGTTTTGCAGATTCTCTGGTTTCAGCCA : 4915
+
+   43 : laGlyIleIleAlaGlyAlaLysAlaGlyGluThrArgPheThrAspThrArgLysAspGlu :   62
+         !!.!:!!|||:!!.!!  !!!.  !  !.!...!  !.!!  !:!!  !  !  !:!!   
+        snAlaValIleSerSerLysAsnPheLysAsnVal***LeuAspAsnAspTyrLeuAsnPhe
+ 4916 : ATGCTGTTATTTCTAGTAAAAACTTTAAAAATGTCTAACTCGACAACGATTATCTAAATTTT : 4975
+
+   63 : GlnGluArgCysIleThrIleLysSerThrAlaIleSerLeuPhePheGluLeuGluGluLy :   83
+        |||         :!!  !   ::!..!!.!  !:!!! !! !    !!|||  !  !.!.||
+        Gln---------ValGluTrpArgGluAsnTyrValIleTrpThrValGluLysMetAsnLy
+ 4976 : CAG---------GTCGAATGGCGGGAAAATTACGTTATATGGACAGTCGAGAAGATGAACAA : 5029
+
+   84 : sAspLeuGluPheIle--LysGlyGluAsnGlnValGluValAspGlyLysLysLysLysLe :  103
+        | !!:!!|||!!.:!!##|||..!                  ..!|||!  !..  !   ! 
+        sHisValGluLeuLeu##LysSer------------------SerGlyIleSerLeuLeuCy
+ 5030 : ACACGTGGAATTACTATGAAATCC------------------AGTGGAATCAGTTTGCTCTG : 5073
+
+  104 : uLysGlyPheLeuIleAsnLeuIleAspSerProGlyHisValAspPheSerSerGluValT :  124
+        !:!!  !.!!||||||||||||||||||||||||||||||||||||||||||.!!|||||||
+        sGluProLeuLeuIleAsnLeuIleAspSerProGlyHisValAspPheSerGlyGluValT
+ 5074 : TGAGCCACTTCTCATCAATCTCATTGATAGTCCGGGACACGTGGATTTTTCTGGAGAAGTGA : 5136
+
+  125 : hrAlaAlaLeuArgValThrAspGlyAlaLeuValValValAspValValSerGlyValCys :  144
+        ||:!!||||||! !:!!:!!|||  !||||||:!!:!!:!!||||||:!!..!|||:!!|||
+        hrSerAlaLeuIleLeuSerAspIleAlaLeuLeuLeuIleAspValIleGluGlyIleCys
+ 5137 : CGTCAGCATTGATTCTTTCCGATATTGCACTTCTGTTGATTGATGTTATTGAAGGAATTTGC : 5196
+
+  145 : ValGlnThrGluThrValLeuArgGlnAlaIleAlaGluArgIleLysProValLeuPheLe :  165
+          !|||||||||.!!:!!:!!||||||!.!|||  !.!. !!  !  !  !:!!||| !!:!
+        SerGlnThrGluAlaLeuIleArgGlnValIleArgAsnGlyGlnAlaMetIleLeuValIl
+ 5197 : TCACAAACAGAAGCTCTTATTCGTCAAGTTATCAGAAATGGTCAAGCAATGATTCTTGTTAT : 5259
+
+  166 : uAsnLysMetAspArgAlaLeuLeuGluLeuGlnLeuGlyAlaGluGluLeuTyrGlnThrL :  186
+        !||||||!!:||||||  !  !:!!||||||:!!:!!..!:!!...|||  !||||||  !:
+        eAsnLysIleAspArgLeuArgValGluLeuLysMetSerSerSerGluAlaTyrGlnHisM
+ 5260 : CAATAAAATCGATCGATTGAGAGTTGAACTGAAAATGTCGTCAAGTGAAGCATATCAACATA : 5322
+
+  187 : euGlnArgIleValGluAsnIleAsnValIleIle{A}  >>>> Target Intron 1 > :  198
+        !!...|||:!!:!!|||...:!!|||  !  !|||{ }            33 bp       
+        etSerArgLeuIleGluGlyValAsnSerCysIle{A}++                      
+ 5323 : TGTCTCGTCTTATTGAAGGAGTCAATAGTTGCATT{A}gt...................... : 5361
+
+  199 : >>>  {la}ThrTyrGlyAspAspAspGlyProMetGlyAlaIleMetValAspProSerVa :  216
+             { !}|||!::|||:!!  !!!:! ! !!   !.!  !:!!    !!||||||:!!  
+           -+{sn}ThrTrpGlyAsnIleGluGluSerGluAlaLysLeuHisPheAspProAlaLy
+ 5362 : ...tg{AT}ACATGGGGAAATATCGAAGAATCGGAAGCAAAACTTCATTTTGATCCTGCAAA : 5445
+
+  217 : lGlyAsnValGlyPheGlySerGlyLeuHisGlyTrpAlaPheThrLeuLysGlnPheAlaG :  237
+        !|||||||||  !|||..!|||!.!||||||..!!::||||||  !! !:!!.!.||||||:
+        sGlyAsnValIlePheSerSerAlaLeuHisSerTyrAlaPheGlyCysGluAspPheAlaG
+ 5446 : AGGAAATGTTATTTTCTCATCAGCACTTCATTCATACGCTTTTGGATGCGAAGACTTTGCTC : 5508
+
+  238 : luMetTyrAlaGluLysPheGlyValGlnValGluLysLeuMetLysAsnLeuTrpGlyAsp :  257
+        !!!!:  !|||||||||.!.  !|||:!!  !..!  !|||:!:      :!!!::||||||
+        lnIleAlaAlaGluLysMetLysValGluLysSerAlaLeuLeuProAlaMetPheGlyAsp
+ 5509 : AAATAGCTGCTGAAAAAATGAAAGTAGAAAAATCGGCATTACTTCCTGCAATGTTCGGAGAT : 5568
+
+  258 : ArgPhePheAspLeuLysThrLysLysTrpSerSerSerGlnGluLysAspLysLysArgGl :  278
+          !!::.!!|||! !!    !...!   ! ..!.!!:!!  !!  |||:!!|||  !! !  
+        PheTrpIleAspSerThrGlySerIleArgAspGlyAlaAlaValLysAsnLysAlaThrLe
+ 5569 : TTTTGGATTGATTCGACTGGGTCTATCAGAGATGGAGCAGCAGTTAAGAATAAGGCAACACT : 5631
+
+  279 : yPheValGlnPheValLeuAspProIlePheLysValPheAspAlaIleMetAsnValLysL :  299
+        !|||! !::!.!!||||||!!:|||:!!!::!:!:!!  !|||      :!:...:!!   :
+        uPheGluArgIleValLeuGluProLeuTrpArgIleHisAsp------LeuGlyLeuValG
+ 5632 : GTTCGAAAGAATCGTTTTAGAACCACTTTGGAGAATTCACGAT------CTTGGACTTGTTG : 5688
+
+  300 : ysAspLysValAlaLysLeuLeuGluLysLeuAsnIleLysLeuAlaAlaGluGluLysAsp :  319
+        !!:!! ! !.!.!!||||||  !|||     !!!.   ||||||!.!  !.!.  !|||..!
+        luAsnAspAlaThrLysLeuAlaGluAlaAlaLys---LysLeuGlyIleAsnLeuLysSer
+ 5689 : AAAATGATGCTACCAAGCTTGCCGAAGCTGCAAAA---AAGCTTGGAATTAATTTAAAATCC : 5745
+
+  320 : LeuGluGlyLysProLeuLeuLysValValMetArgLysTrpLeuProAlaGlyAspThrLe :  340
+          !..!!.!!!.  !  !!!! ! ! !:!!||||||!  |||||||||  !  ! ! .!!  
+        ArgArgAlaAsnGluAlaPheAspGluLeuMetArgThrTrpLeuProLeuProLysAlaSe
+ 5746 : AGAAGAGCCAATGAAGCTTTCGACGAACTTATGAGAACTTGGTTGCCACTTCCAAAAGCAAG : 5808
+
+  341 : uLeuGlnMetIleCysIleHisLeuProSerProValThrAlaGln<->LysTyrArgMetG :  360
+        !!!!::!   :!!...! !  !! !  !  !  !  !|||  !.!.   :!!:!!|||:!!!
+        rPheArgAlaValAlaArgAlaProAsnValArgSerThrPheAspThrGlnHisArgLeuA
+ 5809 : TTTCAGAGCAGTAGCAAGAGCTCCAAATGTTAGATCAACATTTGATACTCAACATCGATTGG : 5871
+
+  361 : luLeuLeuTyrGluGlyProHisAspAspGluAlaAlaValAlaIleLysAsnCysAspPro :  380
+        !:! !|||   !    !! !!  ||| !!  !  !  !  !  !:!!   .!.|||:!!|||
+        spHisLeuThrGlyHisArgLeuAspHisProLeuArgLysPheValLeuGluCysAsnPro
+ 5872 : ATCATCTGACAGGTCATCGTCTGGATCATCCATTAAGAAAATTCGTTCTCGAATGTAATCCT : 5931
+
+  381 : AsnGlyProLeuMetMetTyrValSerLysMetValProThrSerAspLysGly<-><->Ar :  399
+        .!.!.!  !  !:!!:!:!:!|||  !|||:!::!!! !|||..!||||||..!        
+        GluAlaMetThrLeuValPheValValLysLeuLeuGlnThrGluAspLysAsnLeuThrSe
+ 5932 : GAAGCAATGACACTGGTTTTTGTTGTGAAACTTCTTCAGACAGAAGACAAAAATCTCACTTC : 5994
+
+  400 : gPheTyrAlaPheGlyArgValPheSerGlyLysValAlaThrGlyMetLysAlaArgIle  :  420
+        !  !   |||.!! !!||||||.!!||||||! !:!!  !! !|||   !    !  !:!! 
+        rArgArgAlaIleCysArgValLeuSerGlyThrLeuArgLysGlyAspThrLeuTyrVal-
+ 5995 : TCGTAGAGCAATTTGTCGTGTTCTCAGTGGGACACTGCGTAAAGGAGACACTTTATACGTCc : 6057
+
+  421 :  >>>> Target Intron 2 >>>>  GlnGlyProAsnTyrValProGlyLysLysGluA :  431
+                   776 bp           .!..!!  !.!.   ..! !!  !|||!  !!: 
+        +                         ++AsnSerSerGluValThrSerThrLysIleAspA
+ 6058 : t.........................agAATAGCAGCGAAGTGACTTCTACAAAAATCGATC : 6866
+
+  432 : spLeuTyrLeuMetMetGlyArgGluValGluProIleGluAspIleProSerGlyAsnIle :  451
+          :!!!  :!!:!:   ||||||!!:  !   |||! !!!:   :!! !!||||||!  |||
+        rgIleSerIleLeuArgGlyArgAspSerIleProThrAspThrValThrSerGlyMetIle
+ 6867 : GAATTTCAATTCTTCGTGGTCGTGATTCAATTCCAACCGATACAGTAACATCAGGAATGATT : 6926
+
+  452 : AlaGlyLeuValGlyValAspGlnTyrLeuValLysGlyGlyThrIleThrThrPheLysAs :  472
+        ..!  !:!!! !!.!      :!!  !|||:!!:!!..!  !|||:!!  !  !     !||
+        CysThrIleAspAla------GluIleLeuLeuGlnAsnThrThrLeuCysGluLysProAs
+ 6927 : TGTACTATTGATGCA------GAAATTCTATTACAAAATACTACTCTCTGTGAGAAACCGGA : 6983
+
+  473 : pAlaHisAsnLeuArgValMetLysPheSerValSerProValValArgValAlaValGluP :  493
+        |  !! !  !|||!:!:!!   ...   !!!! !..! !!:!!|||||||||:!!:!!... 
+        pPheProCysLeuLysIleGlySerGlnThrGlyGluAlaLeuValArgValSerIleSerT
+ 6984 : TTTCCCTTGTCTCAAAATTGGATCTCAAACTGGAGAAGCTTTGGTTAGAGTTTCGATCAGTA : 7046
+
+  494 : roLysAsnProAlaAspLeuProLysLeuValGluGlyLeuLysArgLeuAlaLysSerAsp :  513
+        !!:!!.!.  !! !|||:!!  ! ! |||  !|||  !||||||  !||||||  !  !|||
+        hrGlnGlnLeuAspAspMetAspAspLeuArgGluLysLeuLysLeuLeuAlaLeuLeuAsp
+ 7047 : CTCAACAATTGGATGATATGGACGATTTAAGAGAAAAATTGAAATTATTAGCTCTACTTGAT : 7106
+
+  514 : ProMetValGlnCysIlePheGluGluSerGlyGluHisIleIleAlaGlyAlaGlyGluLe :  534
+         !!!  :!!:!!   !!:     !|||!:!||||||     !!!:!.!  !|||||||||:!
+        ThrSerLeuLysValMetGluLeuGluAsnGlyGluLeuAlaMetValThrAlaGlyGluVa
+ 7107 : ACAAGTCTGAAAGTGATGGAATTGGAAAATGGAGAATTAGCAATGGTGACAGCTGGAGAAGT : 7169
+
+  535 : uHisLeuGluIleCysLeuLysAspLeuGluGluAspHisAlaLysIleProLeuLysLysS :  555
+        !||||||:!!! !|||:!!|||||||||   .!.|||   !.!   :!:  !||| !    |
+        lHisLeuGlnLysCysIleLysAspLeu---AsnAspLeuGlyLeuValAspLeuAspValS
+ 7170 : ACATTTACAAAAATGTATCAAGGATTTA---AATGATTTGGGACTTGTGGATTTAGATGTCT : 7229
+
+  556 : erAspProValValSerTyrArgGluThrValSerGluGluSerLys{Gl}  >>>> Targ :  571
+        ||!!:|||:!!||| !!!:!! !|||||||||! !|||!!:|||  !{! }           
+        erGluProIleValProPheMetGluThrValIleGluAspSerVal{Le}-+         
+ 7230 : CTGAACCAATTGTTCCATTTATGGAGACTGTAATTGAAGATTCTGTA{CT}ct......... : 7281
+
+  572 : et Intron 3 >>>>  {n}ValCysLeuSerLysSerProAsnLysHisAsnArgLeuPh :  585
+         873 bp           { }  !! !!!!!!!|||! !  !.!.      :!!  !  !||
+                        ++{u}AsnPhePheThrLysIle***GlnLeuLeuHisLeuAlaPh
+ 7282 : ................ag{C}AACTTTTTTACCAAAATTTAGCAACTTTTGCACTTGGCATT : 8192
+
+  586 : eLeuLysAlaValProLeuProGluGluLeuAlaGluAspIleGluLysGlyGluIleAsnA :  606
+        |||||||  !:!!  !|||  !!!::!!|||  !..!  !  !|||:!!  !..!|||  ! 
+        eLeuLysLeuLeuLysLeuValAspLysLeuArgArgPheAlaGluGluProSerIlePheG
+ 8193 : TCTAAAGTTGCTAAAGTTGGTGGATAAGTTGCGGCGATTTGCCGAGGAACCTTCAATTTTTC : 8255
+
+  607 : laArgAspGluLeuLysAlaArgAlaLysLeuLeuAlaGluLysTyrGluTyrAspValThr :  626
+         !  !  !!!:  !!!.:!!  !  !!  ! !! !  !...::!   |||  !|||  !|||
+        lnLeuLeuAspLysAsnSerSerLeuIleSerSerIleArgArgGlyGluAlaAspGlnThr
+ 8256 : AGTTGCTCGACAAAAATTCTTCGTTAATTTCATCGATTCGTCGAGGAGAAGCCGATCAAACC : 8315
+
+  627 : GluAla{A}  >>>> Target Intron 4 >>>>  {rg}LysIleTrpCysPheGlyPr :  636
+        |||  !{ }            105 bp           { !}:!!||||||...||||||||
+        GluIle{A}-+                         -+{sp}GlnIleTrpAlaPheGlyPr
+ 8316 : GAAATT{G}at.........................tg{AT}CAAATTTGGGCATTTGGACC : 8450
+
+  637 : oAspGlyThrGlyProAsnLeuLeuValAspValThrLysGlyValGlnTyrLeuAsn{Gl} :  656
+        |!!: !!.!! !! !!|||:!!||| !!:!!  !..!:!!..!  !.!.     !::!{! }
+        oGluArgAlaArgAlaAsnIleLeuPheAsnAsnValGlnAsnTyrAspArgAspSer{Va}
+ 8451 : AGAAAGAGCAAGAGCCAATATTCTATTCAATAATGTTCAAAATTATGATAGAGATTCC{GT} : 8510
+
+  657 :   >>>> Target Intron 5 >>>>  {u}IleLysAspSerValValAlaGlyPheGln :  666
+                    30 bp            {!}  ! ! .!.:!!:!!||||||||||||:!!
+        -+                         ++{l}TyrAspGlnAlaLeuValAlaGlyPheGlu
+ 8511 : tt.........................ag{A}TATGATCAAGCACTTGTCGCTGGATTTGAA : 8570
+
+  667 : LeuAlaThrLysGluGlyValLeuCysGluGluAsnLeuArgGlyValArgPheAsnIleGl :  687
+        |||  !  !!!.   |||  !||||||.!.|||! !:!!!.!|||:!!  ! !!! !:!!||
+        LeuPheCysAsnThrGlyProLeuCysAsnGluIleMetHisGlyIleAlaValIleValGl
+ 8571 : TTATTCTGTAATACTGGACCACTTTGCAATGAAATTATGCACGGAATAGCAGTTATTGTTGA : 8633
+
+  688 : uAspValThrLeuHisAlaAspAlaIleHisArgGlyGlyGlyGlnIleIleProThrAlaA :  708
+        |!!:  !!.!:!! !!! !!!:! !        !  !|||||||||!!:!!: !!.!!  !!
+        uGluTrpAsnValAspGluGluAsp---GlyAlaIleGlyGlyGlnMetMetThrAlaIleL
+ 8634 : AGAATGGAATGTTGATGAAGAAGAT---GGAGCTATTGGAGGACAAATGATGACTGCAATAA : 8693
+
+  709 : rgArgValLeuTyrAlaSerValLeuThrAlaGluProArgLeuLeuGluProValTyrLeu :  728
+        :!  !  !! !! !|||:!!!.!  !! !  !! !! !||||||:!!!   !!:!!|||! !
+        ysAlaSerCysSerAlaAlaAlaLysLysLeuAlaLeuArgLeuValAlaAlaMetTyrArg
+ 8694 : AAGCTTCATGCTCTGCTGCTGCTAAAAAACTTGCACTCCGCCTTGTCGCTGCCATGTACCGG : 8753
+
+  729 : ValGluIleGlnCysProGluGluAlaValGlyGlyIleTyrGlyValLeuAsnArgArgAr :  749
+          !   :!!       !!...:!!|||:!!|||  !:!!:!!!.!||||||:::!:!|||!:
+        CysThrValThrThrAlaSerGlnAlaLeuGlyLysValHisAlaValLeuSerGlnArgLy
+ 8754 : TGTACTGTAACTACAGCCAGTCAGGCATTGGGAAAAGTTCATGCCGTTTTGTCACAAAGAAA : 8816
+
+  750 : gGlyLys  >>>> Target Intron 6 >>>>  ValLeuGluGluSerGlnValAlaGl :  760
+        !..!|||            766 bp           ||||||...|||..!     !! !!.
+        sSerLys++                         ++ValLeuSerGluAspIleAsnGluAl
+ 8817 : ATCGAAAgt.........................agGTACTCTCCGAGGACATCAATGAAGC : 9615
+
+  761 : yThrProMetPheValValLysAlaTyrLeuProValAsnGluSerPheGlyPheThrAlaA :  781
+        !|||  !:!:|||! !|||   :!!   :!!||||||  !|||||||||..!|||  !! !.
+        aThrAsnLeuPheGluValValSerLeuMetProValValGluSerPheSerPheCysAspG
+ 9616 : TACAAATTTATTCGAAGTGGTCTCCCTAATGCCCGTCGTCGAATCGTTCTCTTTCTGTGATC : 9678
+
+  782 : spLeuArgSerAsnThrGlyGlyGlnAlaPheProGlnLeuValPheAspHisTrpGlnVal :  801
+        !.||||||!.!  !|||..!|||..!|||! ! !!||||||  !|||..!||||||||||||
+        lnLeuArgLysPheThrSerGlyMetAlaSerAlaGlnLeuGlnPheSerHisTrpGlnVal
+ 9679 : AACTTCGCAAGTTCACATCTGGAATGGCTTCTGCTCAACTTCAATTTTCTCACTGGCAAGTC : 9738
+
+  802 : LeuProGlyAspProLeuGluAlaGlyThrLysGluGluGlnValValAlaGluValArgLy :  822
+        :!!  !! !||||||! !  !.!!  !:!!! !  !|||:!!:!!! !! !   ! !  !||
+        IleAspGluAspProTyrTrpThrProSerThrLeuGluGluIleGluGluPheGlyLeuLy
+ 9739 : ATTGACGAGGATCCTTACTGGACGCCGTCTACATTGGAAGAAATTGAAGAATTCGGATTGAA : 9801
+
+  823 : sArgLysGlyLeuLysGluLysValProGluLeuAspAsnTyrLeuAspLysLeu :  840
+        | !! ! .!!! !!!..!.  !  !  ! ! :!!|||     !  !   :::  !
+        sGlyAspSerProAsnHisAlaArgGlyTyrMetAspAlaValArgArgArgLys
+ 9802 : GGGAGACAGTCCGAATCATGCAAGAGGATATATGGATGCAGTTAGAAGACGTAAA : 9857
+
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:bestfit 2.2.0
+##date 2016-11-03
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+I;9859005-9873867	exonerate:protein2genome:bestfit	gene	4792	9857	485	+	.	gene_id 0 ; sequence eef_3.5 ; gene_orientation +
+I;9859005-9873867	exonerate:protein2genome:bestfit	cds	4792	5358	.	+	.	
+I;9859005-9873867	exonerate:protein2genome:bestfit	exon	4792	5358	.	+	.	insertions 0 ; deletions 9 ; frameshifts 2
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice5	5359	5360	.	+	.	intron_id 1 ; splice_site "GT"
+I;9859005-9873867	exonerate:protein2genome:bestfit	intron	5359	5391	.	+	.	intron_id 1
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice3	5390	5391	.	+	.	intron_id 0 ; splice_site "TG"
+I;9859005-9873867	exonerate:protein2genome:bestfit	cds	5392	6056	.	+	.	
+I;9859005-9873867	exonerate:protein2genome:bestfit	exon	5392	6056	.	+	.	insertions 9 ; deletions 3
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice5	6057	6058	.	+	.	intron_id 2 ; splice_site "CT"
+I;9859005-9873867	exonerate:protein2genome:bestfit	intron	6057	6832	.	+	.	intron_id 2
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice3	6831	6832	.	+	.	intron_id 1 ; splice_site "AG"
+I;9859005-9873867	exonerate:protein2genome:bestfit	cds	6833	7278	.	+	.	
+I;9859005-9873867	exonerate:protein2genome:bestfit	exon	6833	7278	.	+	.	insertions 0 ; deletions 3
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice5	7279	7280	.	+	.	intron_id 3 ; splice_site "CT"
+I;9859005-9873867	exonerate:protein2genome:bestfit	intron	7279	8151	.	+	.	intron_id 3
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice3	8150	8151	.	+	.	intron_id 2 ; splice_site "AG"
+I;9859005-9873867	exonerate:protein2genome:bestfit	cds	8152	8324	.	+	.	
+I;9859005-9873867	exonerate:protein2genome:bestfit	exon	8152	8324	.	+	.	insertions 0 ; deletions 0
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice5	8325	8326	.	+	.	intron_id 4 ; splice_site "AT"
+I;9859005-9873867	exonerate:protein2genome:bestfit	intron	8325	8429	.	+	.	intron_id 4
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice3	8428	8429	.	+	.	intron_id 3 ; splice_site "TG"
+I;9859005-9873867	exonerate:protein2genome:bestfit	cds	8430	8511	.	+	.	
+I;9859005-9873867	exonerate:protein2genome:bestfit	exon	8430	8511	.	+	.	insertions 0 ; deletions 0
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice5	8512	8513	.	+	.	intron_id 5 ; splice_site "TT"
+I;9859005-9873867	exonerate:protein2genome:bestfit	intron	8512	8541	.	+	.	intron_id 5
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice3	8540	8541	.	+	.	intron_id 4 ; splice_site "AG"
+I;9859005-9873867	exonerate:protein2genome:bestfit	cds	8542	8824	.	+	.	
+I;9859005-9873867	exonerate:protein2genome:bestfit	exon	8542	8824	.	+	.	insertions 0 ; deletions 1
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice5	8825	8826	.	+	.	intron_id 6 ; splice_site "GT"
+I;9859005-9873867	exonerate:protein2genome:bestfit	intron	8825	9590	.	+	.	intron_id 6
+I;9859005-9873867	exonerate:protein2genome:bestfit	splice3	9589	9590	.	+	.	intron_id 5 ; splice_site "AG"
+I;9859005-9873867	exonerate:protein2genome:bestfit	cds	9591	9857	.	+	.	
+I;9859005-9873867	exonerate:protein2genome:bestfit	exon	9591	9857	.	+	.	insertions 0 ; deletions 0
+I;9859005-9873867	exonerate:protein2genome:bestfit	similarity	4792	9857	485	+	.	alignment_id 0 ; Query eef_3.5 ; Align 4792 1 189 ; Align 4981 67 66 ; Align 5049 89 6 ; Align 5055 97 303 ; Align 5394 199 282 ; Align 5676 295 48 ; Align 5724 312 132 ; Align 5859 356 129 ; Align 5994 399 63 ; Align 6833 420 111 ; Align 6944 459 255 ; Align 7199 545 78 ; Align 8153 572 171 ; Align 8432 630 78 ; Align 8543 657 117 ; Align 8660 697 165 ; Align 9591 752 267
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis
+Command line: [exonerate -m p2g:b --softmaskquery no -E yes -Q protein -T dna -n 1 --softmasktarget no --showvulgar no --minintron 20 --maxintron 50000 --showalignment yes --showtargetgff yes -q /tmp/tmpkuex454x/OrthologousGroups_I3.5.OG0002137.txt.consensus -t /tmp/tmpmjn5dtvs]
+Hostname: [NUC8]
+
+** (process:28903): WARNING **: Exhaustively generating suboptimal alignments will be VERY SLOW
+
+C4 Alignment:
+------------
+         Query: OrthologousGroups_I3.5.OG0002137.txt
+        Target: I;9159307-9171689
+         Model: protein2genome:bestfit
+     Raw score: 1294
+   Query range: 0 -> 968
+  Target range: 819 -> 10142
+
+     1 : MetAspSerAspLeuTyrAspGluPheGlyAsnTyrIleGlyProGluLeuAspSerAsp :    20
+            |||:!!|||  !! !! !!!:|||.!!|||  !.!!   |||! !|||:!! !!|||
+         AlaAspAlaAspAspSerGlyAspPheSerAsnArgPhe---ProValLeuAsnArgAsp
+   820 : GCAGATGCTGACGATTCTGGCGATTTCAGCAATCGTTTT---CCTGTGCTCAATCGAGAC :   874
+
+    21 : Asp{G}  >>>> Target Intron 1 >>>>  {lu}GluGluGluGluGluGluGlu :    29
+         |||{!}            891 bp           {!:}.!.   :!!.!..!..!...!
+         Asp{A}++                         ++{sp}HisPheGlnHisHisHisArg
+   875 : GAC{G}gt.........................ag{AT}CACTTCCAACATCATCACCGG :  1792
+
+    30 : Glu  >>>> Target Intron 2 >>>>  LysGluGluGluGluGluAspGluGluM :    40
+         :!!            444 bp           :!!!  ........!.!..!..!....:
+         Lys++                         -+GluValSerSerSerHisGlnHisArgL
+  1793 : AAAgt.........................cgGAAGTCTCCTCTTCACACCAACATCGTC :  2269
+
+    41 : etGluGluAspAspGluGluValProSerAsnGlnIleValLeuHisGluAspLysLysT :    60
+         !:...   .!.  !:!!   :!!||||||...     !:!!  !   ..!   ..!!..!
+         euArgLeuGlnIleGlnIleLeuProSerGlyAlaCysLeuThrThrArgThrSerSerP
+  2270 : TTCGTCTTCAGATTCAGATTCTTCCAAGCGGGGCTTGTCTGACGACACGGACGTCGAGTT :  2329
+
+    61 : yrTyrAla{S}  >>>> Target Intron 3 >>>>  {er}AlaLeuGluValTyrG :    69
+         :!   |||{ }            178 bp           { !}! !||| !!!.!  !.
+         heValAla{V}-+                         ++{al}GluLeu***AlaArgS
+  2330 : TTGTGGCA{G}at.........................ag{TT}GAGCTGTAAGCGCGCT :  2534
+
+    70 : lyGluAspValGluThrLeuValGlnGluGluAspAlaGlnProLeuThrGluProIleV :    89
+         .!   |||  !:!!  !|||:!!:!!|||..!||| !!:!!  !|||:!!:!!  !!!: 
+         erIleAspAsnGlnAspLeuIleLysGluArgAspProLysAsnLeuSerLysPheMetA
+  2535 : CTATCGATAATCAAGATTTGATAAAGGAACGAGATCCAAAAAACCTCTCTAAATTTATGA :  2594
+
+    90 : alLysProValLysLysArgLysPheGlnAlaAlaGluLys{G}  >>>> Target In :   103
+          !|||  !  !:!!   ! ! ! !!.:!!! !  !:!!:!!{:}            825 
+         rgLysAsnTyrGlnValLeuTyrLeuLysAspLeuGlnGln{L}-+              
+  2595 : GAAAGAATTATCAAGTTCTCTATTTAAAAGATTTACAACAA{A}tt.............. :  2639
+
+   104 : tron 4 >>>>  {lu}LeuProGlu  >>>> Target Intron 5 >>>>  ThrVa :   108
+         bp           {!!}|||  !:!!           1170 bp           ..!  
+                    ++{ys}LeuGluLys++                         ++ValAs
+  2640 : ...........ag{AA}CTGGAAAAAgt.........................agGTCAA :  4646
+
+   109 : lTyrLysLysGluTyrLeuAlaAspLeuMetAspLysProGluLeuIleArgAsnValAl :   128
+         !!:!! !   !!: ! :!!  !!  |||||||||:::  !...  !|||||||||:!!:!
+         nPheThrValAspGluIleArgAlaLeuMetAspArgLysArgAsnIleArgAsnMetSe
+  4647 : CTTCACGGTCGATGAGATCCGTGCGCTTATGGATCGCAAGCGTAACATTCGTAACATGTC :  4706
+
+   129 : aIleAlaGlyHisLeuHisHisGlyLysThrThrPheLeuAspCysLeuValGluGlnTh :   148
+         !:!!  !!.!|||:!! !!|||||||||:!!|||.!!  !|||!  ||||||...:!!.!
+         rValIleAlaHisValAspHisGlyLysSerThrLeuThrAspSerLeuValSerLysAl
+  4707 : TGTTATTGCTCACGTCGATCACGGAAAATCTACCCTTACCGATTCACTCGTTTCCAAAGC :  4766
+
+   149 : rHisProGluPheValArgAlaGluAspLysAspValArgTyrThrAspThrLeuPheIl :   168
+         !     !   .!!!.! !!:!!:!!! !  !!!:..!|||!:!|||||||||! !     
+         a---GlyIleIleAlaGlySerLysAlaGlyGluThrArgPheThrAspThrArgLysAs
+  4767 : C---GGTATTATTGCCGGATCCAAGGCTGGAGAGACTCGTTTCACTGACACTCGTAAGGA :  4823
+
+   169 : eGluGlnGlnArgGlyLeuSerIleLysAla{Me}  >>>> Target Intron 6 >> :   179
+         !||||||:!!||| !!:!!!!!||||||:!!{! }            115 bp       
+         pGluGlnGluArgCysIleThrIleLysSer{Th}++                       
+  4824 : TGAGCAGGAGCGTTGTATTACCATCAAATCT{AC}gt....................... :  4860
+
+   180 : >>  {t}ProValThrLeuValMetGlnAspSerArgGluLysSerTyrLeuLeuAsnIl :   197
+             {!} !!|||  !:!!! !   :!! ! ..!!:! ! !!..!!!:!|||:!!|||:!
+           --{r}ThrValGluValAspGlyLysLysGluLysTyrAsnGlyPheLeuIleAsnLe
+  4861 : ..ga{G}ACGGTTGAGGTTGATGGAAAGAAAGAGAAATACAACGGTTTCTTGATCAATTT :  5025
+
+   198 : eIleAspThrProGlyHisValAsnPheSerAspGluValThrAlaAlaTyrArgLeuSe :   217
+         :||||||:!!||||||||||||:!!||||||..!|||||||||||||||  !|||:!!!!
+         uIleAspSerProGlyHisValAspPheSerSerGluValThrAlaAlaLeuArgValTh
+  5026 : GATCGATTCACCCGGTCACGTTGACTTCTCGTCTGAAGTTACTGCTGCTCTTCGTGTTAC :  5085
+
+   218 : rAspGlyValValIleValValAspAlaHisGluGlyValMetLeuAsnThrGluArgLe :   237
+         !||||||!.!:!!:!!|||||||||..!  !...||||||   :!!.!.||||||! !:!
+         rAspGlyAlaLeuValValValAspCysValSerGlyValCysValGlnThrGluThrVa
+  5086 : TGATGGAGCTCTCGTCGTCGTCGATTGTGTTTCCGGAGTGTGTGTCCAAACCGAGACTGT :  5145
+
+   238 : uIleArgHisAlaValGlnGluArgLeuProIleThrLeuCysIleAsnLysIleAspAr :   257
+         !:!:|||!!.|||:!!   ||||||:!!  !  !..!|||! !!!:||||||!!:|||||
+         lLeuArgGlnAlaIleAlaGluArgIleLysProValLeuPheMetAsnLysMetAspAr
+  5146 : GCTGCGTCAGGCTATTGCTGAGCGTATCAAGCCAGTTCTTTTCATGAACAAGATGGACCG :  5205
+
+   258 : gLeuIleLeuGluLeuLysLeuProProAlaAspAlaTyrTyrLysLeuArg  >>>> T :   275
+         |  !:!!|||||||||:!!|||  ! !!! !!!:  !!:! ! !  !!!!:!        
+         gAlaLeuLeuGluLeuGlnLeuGlyAlaGluGluLeuPheGlnThrPheGln++      
+  5206 : TGCCCTTCTCGAACTTCAACTCGGAGCCGAGGAACTTTTCCAAACCTTCCAAgt...... :  5261
+
+   276 : arget Intron 7 >>>>  LeuValLeuAspGlnValAsnAlaLeuLeuGlnThrPhe :   287
+             48 bp            ! !:!!:!!!!:.!.:!!|||!.!:!!:!!   |||!:!
+                            ++ArgIleValGluAsnIleAsnValIleIleAlaThrTyr
+  5262 : ...................agCGTATCGTTGAAAACATCAACGTCATCATTGCCACTTAC :  5343
+
+   288 : SerGluGluAspAla<-><-><-><->AlaValLeuSerProLeuLeuGluAsnValIle :   303
+         .!!!!:!!:|||!.!              !:!!:!!..!|||! !:!!! !||||||  !
+         GlyAspAspAspGlyProMetGlyProIleMetValAspProSerIleGlyAsnValGly
+  5344 : GGAGACGACGATGGACCGATGGGACCAATCATGGTTGATCCATCTATCGGAAACGTCGGA :  5403
+
+   304 : PheAlaSerSerArgTyrAsnIleCysPheSerLeuLysSerPheAlaAsnLeuTyrAla :   323
+         |||!.!|||.!!! !:!!...   ..!|||!!!||||||..!||||||.!.:!!||||||
+         PheGlySerGlyLeuHisGlyTrpAlaPheThrLeuLysGlnPheAlaGluMetTyrAla
+  5404 : TTCGGATCTGGACTCCACGGATGGGCCTTCACCCTCAAGCAGTTCGCTGAGATGTACGCC :  5463
+
+   324 : GluLysTyrGluGluLeuAsn  >>>> Target Intron 8 >>>>  AlaLysGluP :   334
+         ! !|||!:!   ! !:!!.!.            46 bp            !.! ! :!!.
+         GlyLysPhe---GlyValGln++                         ++ValAspLysL
+  5464 : GGAAAGTTC---GGAGTTCAAgt.........................agGTTGACAAGC :  5539
+
+   335 : heAlaArgArgLeuTrpGlyAspIleTyrPheAspLysLysThrArgLysPheSerLysL :   354
+         !!  !!:!!.!||||||||||||  !!:!||||||   ||||||!:!|||!::|||   !
+         euMetLysAsnLeuTrpGlyAspArgPhePheAspLeuLysThrLysLysTrpSer---S
+  5540 : TCATGAAGAACCTCTGGGGAGATCGTTTCTTCGATCTCAAGACCAAGAAGTGGAGC---A :  5596
+
+   355 : ysAlaProSerSerGluAlaLysArgThrPheValGluPheIleLeuGluProLeuTyrL :   374
+         ...!!! !!!!..!|||::!||||||  !|||  !:!!|||:!!|||!!:|||:!!!:!!
+         erThrGlnThrAspGluSerLysArgGlyPheCysGlnPheValLeuAspProIlePheM
+  5597 : GTACTCAGACCGATGAGAGCAAGCGTGGATTCTGCCAATTCGTTCTTGACCCAATCTTCA :  5656
+
+   375 : ysIlePheSerGlnValValGlyAspValAspThrCysLeuProLysLeuMetGluGluL :   394
+          !:!!|||..!   |||:!!..!  !  ! !   !     ! !!   |||:!:|||:!!|
+         etValPheAspAlaValMetAsnIleLysLysAspLysThrAlaAlaLeuValGluLysL
+  5657 : TGGTCTTCGACGCCGTCATGAACATCAAGAAGGACAAGACCGCTGCTCTTGTTGAGAAGC :  5716
+
+   395 : euGlyIleLysLeuThrLysGluGluGlnLysMetAsnValArgProLeuIleAlaLeuI :   414
+         ||||||||||||||.!!!!.!!:|||:!! ! :!!.!.! !!:!||||||!!:  !:!!.
+         euGlyIleLysLeuAlaAsnAspGluLysAspLeuGluGlyLysProLeuMetLysValP
+  5717 : TCGGAATCAAGCTCGCCAACGACGAGAAGGATTTGGAAGGAAAACCACTCATGAAGGTCT :  5776
+
+   415 : leCysLysArgPhePheGlyAspPheThrAlaPheValAspLeuValValLysAsnIleL :   434
+         !!   :::!:!!::.!!  !! !     !.!!.!.:!!.!.:!!:!!!.!   :!!:!! 
+         heMetArgLysTrpLeuProAlaGlyAspThrMetLeuGlnMetIleAlaPheHisLeuP
+  5777 : TCATGCGCAAGTGGCTTCCAGCCGGAGACACTATGCTCCAGATGATCGCTTTCCATCTTC :  5836
+
+   435 : ysSerProValGluAsnAlaLysThrLysValGluGlnIleTyrLeuGlyProAlaGluS :   454
+          !|||||||||     !  !|||  !!:!:!!|||..!:!!|||  !||||||  !!!:.
+         roSerProValThrAlaGlnLysTyrArgMetGluMetLeuTyrGluGlyProHisAspA
+  5837 : CATCCCCAGTGACTGCTCAAAAATACAGAATGGAGATGCTCTACGAAGGACCACACGACG :  5896
+
+   455 : erLysLeuAlaAlaGluLeuAlaLysCysAspAlaGluGlyProLeuLeuValHisThrT :   474
+         .!:!!  !|||!.!!  :!!  !!  |||||| !!.!.|||||||||:!!:!!:!!! !:
+         spGluAlaAlaValAlaIleLysThrCysAspProAsnGlyProLeuMetMetTyrIleS
+  5897 : ACGAGGCCGCCGTTGCTATCAAGACCTGTGATCCAAATGGACCACTCATGATGTACATCT :  5956
+
+   475 : hrLysAsnTyrAlaThrAlaAspAlaThrSerPheArgValLeuGlyArgValLeuSerG :   494
+         !!|||!      !!|||:!!|||  !  ! !!|||  !!.!!!!|||||||||!!!||||
+         erLysMetValProThrSerAspLysGlyArgPheTyrAlaPheGlyArgValPheSerG
+  5957 : CCAAGATGGTGCCAACTTCCGATAAGGGACGTTTCTACGCTTTCGGACGTGTGTTCTCCG :  6016
+
+   495 : lyThrLeuGluAlaGlyGlnAspValArgIleLeuGlyGluAsnTyrSerIleGlnAspG :   514
+         ||! !:!!!  .!!|||..! ! !.!||||||! !|||  !||||||  !  !  ! ! :
+         lyLysValAlaThrGlyMetLysAlaArgIleGlnGlyProAsnTyrValProGlyLysL
+  6017 : GAAAGGTCGCCACTGGAATGAAGGCTCGCATTCAAGGACCAAACTACGTTCCAGGAAAGA :  6076
+
+   515 : luGluAspSerArgValLeuThrValGlyArgLeuTrpValSerValAlaArgTyrLysI :   534
+         !!||||||  !  !! !  !|||:!!  !|||  !   :!!! !:!!!.!|||!:!!   
+         ysGluAspLeuTyrGluLysThrIleGlnArgThrIleLeuMetMetGlyArgPheIleG
+  6077 : AGGAAGATCTCTATGAGAAGACCATTCAGCGTACCATTCTTATGATGGGACGTTTCATCG :  6136
+
+   535 : leGluValSerArgValProAlaGlyAsnTrpValLeuIleGluGlyIleAspGlnProI :   554
+             !:!!..!  !:!!|||:!!||||||   !.!  !:!!!  |||:!!||||||  !:
+         luProIleGluAspIleProSerGlyAsnIleAlaGlyLeuValGlyValAspGlnTyrL
+  6137 : AGCCAATTGAGGATATTCCATCCGGAAACATCGCTGGACTTGTTGGAGTCGATCAATACC :  6196
+
+   555 : leValLysThrAlaThrIleValGluLeuGluLeuGluGluAspValTyrIlePheArgP :   574
+         !!||||||  !!.!||||||..!   ! !         :!!|||!.!:!!! !.!.||| 
+         euValLysGlyGlyThrIleThrThrTyr---------LysAspAlaHisAsnMetArgV
+  6197 : TCGTCAAGGGAGGAACCATCACCACTTAC---------AAGGATGCCCACAACATGCGTG :  6247
+
+   575 : roLeuLysPheAsnThrLysSerValValLysLeuAlaValGluProIleAsnProSerG :   594
+          !:!!||||||::!..!... !!||||||::::!!||||||||| !!!  ||||||:!!!
+         alMetLysPheSerValSerProValValArgValAlaValGluAlaLysAsnProAlaA
+  6248 : TCATGAAGTTCTCCGTATCTCCAGTCGTCCGTGTTGCCGTCGAAGCTAAGAACCCAGCTG :  6307
+
+   595 : luLeuProLysMetLeuAspGlyLeuArgLysValAsnLysSerTyrProLeuLeuThrT :   614
+         !:|||||||||:!::!!!!:||||||!:!::::!!  !|||||| !!|||:!!:!!  ! 
+         spLeuProLysLeuValGluGlyLeuLysArgLeuAlaLysSerAspProMetValGlnC
+  6308 : ATCTTCCAAAGCTCGTCGAAGGACTCAAACGTCTTGCCAAGTCCGATCCTATGGTCCAAT :  6367
+
+   615 : hrArgValGluGluSerGlyGluHisValLeuLeuGlyThrGlyGluLeuTyrLeuAspC :   634
+          !! ! !!||||||||||||||||||:!!:!!  !|||.!!|||||||||:!!|||!!: 
+         ysIlePheGluGluSerGlyGluHisIleIleAlaGlyAlaGlyGluLeuHisLeuGluI
+  6368 : GTATCTTCGAAGAATCCGGAGAACACATCATCGCCGGAGCTGGAGAGCTTCACTTGGAAA :  6427
+
+   635 : ysValMetHisAspLeuArgLysValPheSerGluIleAspIleLysValAlaAspProV :   654
+          !  !:!! ! ||||||..!:!!! !  !:!!   |||   :!!|||  !:!!|||||||
+         leCysLeuLysAspLeuGluGluAspHisAlaCysIleProLeuLysLysSerAspProV
+  6428 : TCTGTCTGAAGGATTTGGAGGAGGACCACGCTTGCATTCCACTCAAGAAGTCTGACCCGG :  6487
+
+   655 : alValSerPheCysGluThrValValGluThrSerSerLeuLysCysPheAlaGluThrP :   674
+         ||||||||!:! !!|||||||||  !...  !|||!:!! !!  |||!!.:!!:!!:!!|
+         alValSerTyrArgGluThrValGlnSerGluSerAsnGlnIleCysLeuSerLysSerP
+  6488 : TCGTCTCTTACCGTGAAACTGTTCAATCCGAGTCTAACCAGATCTGCTTGTCCAAATCTC :  6547
+
+   675 : roAsnLysLysAsnLysLeuThrMetIleAlaGluProLeuGluLysGlyLeuAlaGluA :   694
+         |||||||| ! |||:::|||  !   ! !|||:!!|||:!!  ! ! |||||||||!!:|
+         roAsnLysHisAsnArgLeuHisCysThrAlaGlnProMetProAspGlyLeuAlaAspA
+  6548 : CAAATAAGCACAATCGTCTTCACTGTACCGCTCAGCCAATGCCAGATGGTCTCGCCGATG :  6607
+
+   695 : spIleGluAsnGluValValGlnIleGlyTrpAsnArgLysArgLeuGlyGluPhePheG :   714
+         ||||||||...! !..!|||.!.  ! !!   .!.  !|||  !! !!.!:!!.!!.!! 
+         spIleGluGlyGlyThrValAsnAlaArgAspGluPheLysAlaArgAlaLysIleLeuA
+  6608 : ATATCGAAGGAGGAACCGTCAACGCTCGTGATGAGTTCAAGGCTCGTGCCAAGATCCTCG :  6667
+
+   715 : lnThrLysTyrGluTrpAspLeuLeuAlaAlaArgSerIleTrpAlaPheGlyProAspT :   734
+             !|||||||||!::|||:!!  !! !||||||!.!||||||..!|||||||||||| 
+         laGluLysTyrGluTyrAspValThrGluAlaArgLysIleTrpCysPheGlyProAspG
+  6668 : CCGAGAAGTACGAATACGACGTCACTGAAGCCCGTAAGATCTGGTGCTTCGGACCAGACG :  6727
+
+   735 : hrThrGlyProAsnValLeuLeuAspAspThrLeuProSerGluValAspLysGluLeuL :   754
+          !||||||||||||:!!|||:!!|||! !|||              !!    !:!!! !|
+         lyThrGlyProAsnLeuLeuMetAspValThr------------LysGlyValGlnTyrL
+  6728 : GAACTGGACCAAATCTCTTGATGGACGTCACC------------AAAGGAGTGCAATACC :  6775
+
+   755 : euLysThrValArgGluSerLeuValGlnGlyPheGlnTrpAlaThrArgGluGlyProL :   774
+         ||!!.  !:!!!:!!!:|||:!!|||   |||||||||||||||||||||||||||  !|
+         euAsnGluIleLysAspSerValValAlaGlyPheGlnTrpAlaThrArgGluGlyValL
+  6776 : TCAATGAAATCAAGGACTCCGTTGTCGCTGGATTCCAATGGGCCACTCGCGAAGGAGTTC :  6835
+
+   775 : euCysGluGluProIleArgAsnValLysPheLysLeuLeuAspAlaValIleAlaLysG :   794
+         ||! !!!:|||  !!!:|||...|||:::|||!!.:!!! !|||!.!..!:!!  !   !
+         euSerAspGluAsnMetArgGlyValArgPheAsnValHisAspValThrLeuHisAlaA
+  6836 : TTTCCGACGAAAACATGCGCGGAGTTCGCTTCAACGTTCACGATGTCACCCTCCACGCTG :  6895
+
+   795 : luProLeuTyrArgGlyGlyGlyGlnIleIleProThrAlaArgArgCysAlaTyrSerA :   814
+         !: !!:!!:!!||||||||||||||||||||||||||||||||||||     !|||:!!:
+         spAlaIleHisArgGlyGlyGlyGlnIleIleProThrAlaArgArgValPheTyrAlaS
+  6896 : ACGCTATCCACAGAGGAGGTGGTCAAATCATCCCAACTGCCCGTCGTGTGTTCTACGCTT :  6955
+
+   815 : laPheLeuMetAlaThrProArgLeuMetGluProTyrTyrValValGluValIleAlaP :   834
+         !! !!|||!  |||  !|||||||||:!:||||||  !|||:!!||||||:!!  !..!|
+         erValLeuThrAlaGluProArgLeuLeuGluProValTyrLeuValGluIleGlnCysP
+  6956 : CGGTTCTTACCGCCGAGCCACGTCTTCTCGAGCCAGTCTACTTGGTCGAAATTCAATGCC :  7015
+
+   835 : roAlaAspCysValSer{A}  >>>> Target Intron 9 >>>>  {la}ValTyrT :   843
+         ||! !! !..!|||.!!{!}            54 bp            {.!}:!!||| 
+         roGluAlaAlaValGly{G}++                         ++{ly}IleTyrG
+  7016 : CAGAAGCCGCCGTTGGA{G}gt.........................ag{GT}ATCTACG :  7096
+
+   844 : hrValLeuAlaLysArgArgGlyHisValThrThrAspAlaProIleProGlySerProL :   863
+          !||||||  !!:!|||||||||||||||  !  !!!::!!! !:!! !!|||!!!|||:
+         lyValLeuAsnArgArgArgGlyHisValPheGluGluSerGlnValThrGlyThrProM
+  7097 : GAGTGTTGAACAGAAGAAGAGGACACGTTTTCGAGGAGTCTCAGGTCACAGGAACTCCAA :  7156
+
+   864 : euTyrThrIleLysAlaPheIleProValIleAspSerPheGlyPheGluThrAspLeuA :   883
+         !!!:!..!:!!||||||!:!:!:||||||! !!!:||||||||||||   .!!|||||||
+         etPheValValLysAlaTyrLeuProValAsnGluSerPheGlyPheThrAlaAspLeuA
+  7157 : TGTTCGTCGTCAAGGCTTACTTGCCTGTCAACGAGTCCTTCGGATTCACCGCCGATCTCC :  7216
+
+   884 : rgThrHisThrGlnGlyGlnAlaPheCysLeuSerValPheSerHisTrpGlnIleValP :   903
+         ||:!!:!!|||  !||||||||||||   ! !!!!||||||..!|||||||||:!::!!|
+         rgSerAsnThrGlyGlyGlnAlaPheProGlnCysValPheAspHisTrpGlnValLeuP
+  7217 : GCTCCAACACCGGAGGACAAGCCTTCCCACAATGCGTGTTCGACCATTGGCAGGTGCTTC :  7276
+
+   904 : roGlyAspProLeuAspLysSerIleValIleArgProLeuGluLeuGlnProAlaProH :   923
+         ||||||||||||||!!:   .!!! !  !  !!.!! !:!!!  |||.!. !!  !  !.
+         roGlyAspProLeuGluAlaGlyThrLysProAsnGlnIleValLeuAspThrArgLysA
+  7277 : CAGGAGACCCGCTTGAGGCCGGAACCAAGCCAAACCAGATCGTTTTGGACACCAGAAAGA :  7336
+
+   924 : isLeuAlaArgGlu  >>>> Target Intron 10 >>>>  PheMetIleLysThrA :   933
+         ..  !!.!! !:!!            2669 bp           !     :!!..!! ! 
+         rgLysGlyLeuLys+-                          +-SerHisValSerIleA
+  7337 : GAAAGGGGCTCAAGga..........................atTCACACGTTTCAATTG : 10035
+
+   934 : rgArgArgLysGlyLeuSerGluAspValSerValAsnLysPhePheAspAspProMetL :   953
+          !!:!!:!!!.  !! !|||.!.   :!!..!..!.!.! !   .!!:!!... !!!   
+         laLysLysAsnMetHisSerAsnLeuLeuGluThrGluMetAlaIleAsnSerThrLysG
+ 10036 : CAAAAAAAAACATGCATTCGAACTTATTGGAAACTGAAATGGCAATCAATTCAACGAAAG : 10095
+
+   954 : euLeuGluLeuAlaLysGlnGlnAspValLeuSerTyrAlaGlyPhe :   968
+          !|||||||||  ! ! |||  !  !  !  !.!!   !.!!.!|||
+         lyLeuGluLeuGlnHisGlnValIleGlnAspGlyArgValAlaPhe
+ 10096 : GATTAGAGCTCCAGCATCAAGTAATTCAAGACGGAAGAGTTGCATTT : 10142
+
+# --- START OF GFF DUMP ---
+#
+#
+##gff-version 2
+##source-version exonerate:protein2genome:bestfit 2.2.0
+##date 2016-11-03
+##type DNA
+#
+#
+# seqname source feature start end score strand frame attributes
+#
+I;9159307-9171689	exonerate:protein2genome:bestfit	gene	820	10142	1294	+	.	gene_id 0 ; sequence OrthologousGroups_I3.5.OG0002137.txt ; gene_orientation +
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	820	880	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	820	880	.	+	.	insertions 0 ; deletions 1
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	881	882	.	+	.	intron_id 1 ; splice_site "GT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	881	1771	.	+	.	intron_id 1
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	1770	1771	.	+	.	intron_id 0 ; splice_site "AG"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	1772	1797	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	1772	1797	.	+	.	insertions 0 ; deletions 0
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	1798	1799	.	+	.	intron_id 2 ; splice_site "GT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	1798	2241	.	+	.	intron_id 2
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	2240	2241	.	+	.	intron_id 1 ; splice_site "CG"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	2242	2338	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	2242	2338	.	+	.	insertions 0 ; deletions 0
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	2339	2340	.	+	.	intron_id 3 ; splice_site "AT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	2339	2516	.	+	.	intron_id 3
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	2515	2516	.	+	.	intron_id 2 ; splice_site "AG"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	2517	2636	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	2517	2636	.	+	.	insertions 0 ; deletions 0
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	2637	2638	.	+	.	intron_id 4 ; splice_site "TT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	2637	3461	.	+	.	intron_id 4
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	3460	3461	.	+	.	intron_id 3 ; splice_site "AG"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	3462	3472	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	3462	3472	.	+	.	insertions 0 ; deletions 0
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	3473	3474	.	+	.	intron_id 5 ; splice_site "GT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	3473	4642	.	+	.	intron_id 5
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	4641	4642	.	+	.	intron_id 4 ; splice_site "AG"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	4643	4857	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	4643	4857	.	+	.	insertions 0 ; deletions 1
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	4858	4859	.	+	.	intron_id 6 ; splice_site "GT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	4858	4972	.	+	.	intron_id 6
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	4971	4972	.	+	.	intron_id 5 ; splice_site "GA"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	4973	5258	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	4973	5258	.	+	.	insertions 0 ; deletions 0
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	5259	5260	.	+	.	intron_id 7 ; splice_site "GT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	5259	5306	.	+	.	intron_id 7
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	5305	5306	.	+	.	intron_id 6 ; splice_site "AG"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	5307	5483	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	5307	5483	.	+	.	insertions 12 ; deletions 1
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	5484	5485	.	+	.	intron_id 8 ; splice_site "GT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	5484	5529	.	+	.	intron_id 8
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	5528	5529	.	+	.	intron_id 7 ; splice_site "AG"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	5530	7033	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	5530	7033	.	+	.	insertions 0 ; deletions 8
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	7034	7035	.	+	.	intron_id 9 ; splice_site "GT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	7034	7087	.	+	.	intron_id 9
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	7086	7087	.	+	.	intron_id 8 ; splice_site "AG"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	7088	7350	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	7088	7350	.	+	.	insertions 0 ; deletions 0
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice5	7351	7352	.	+	.	intron_id 10 ; splice_site "GA"
+I;9159307-9171689	exonerate:protein2genome:bestfit	intron	7351	10019	.	+	.	intron_id 10
+I;9159307-9171689	exonerate:protein2genome:bestfit	splice3	10018	10019	.	+	.	intron_id 9 ; splice_site "AT"
+I;9159307-9171689	exonerate:protein2genome:bestfit	cds	10020	10142	.	+	.	
+I;9159307-9171689	exonerate:protein2genome:bestfit	exon	10020	10142	.	+	.	insertions 0 ; deletions 0
+I;9159307-9171689	exonerate:protein2genome:bestfit	similarity	820	10142	1294	+	.	alignment_id 0 ; Query OrthologousGroups_I3.5.OG0002137.txt ; Align 820 1 39 ; Align 859 15 21 ; Align 1774 23 24 ; Align 2242 31 96 ; Align 2519 64 117 ; Align 3464 104 9 ; Align 4643 107 126 ; Align 4769 150 87 ; Align 4974 180 285 ; Align 5307 275 54 ; Align 5373 293 102 ; Align 5475 328 9 ; Align 5530 331 66 ; Align 5596 354 630 ; Align 6226 567 534 ; Align 6760 749 273 ; Align 7090 841 261 ; Align 10020 928 123
+# --- END OF GFF DUMP ---
+#
+-- completed exonerate analysis

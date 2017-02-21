@@ -1,0 +1,83 @@
+# TBLASTN 2.4.0+
+# Query: OrthologousGroups_I3.5.OG0000365.txt
+# Database: /home/janosch/Dropbox/MSc_project/src/GenePS/test_data/c_elegans.PRJNA13758.WS254.genomic.fa
+# Fields: query acc., subject acc., evalue, q. start, q. end, s. start, s. end, query length, sbjct frame
+# 13 hits found
+OrthologousGroups_I3.5.OG0000365.txt	II	4.09e-56	17	200	13117756	13118364	641	1
+OrthologousGroups_I3.5.OG0000365.txt	II	9.74e-53	453	624	13121205	13121780	641	3
+OrthologousGroups_I3.5.OG0000365.txt	II	9.74e-53	380	452	13120928	13121146	641	2
+OrthologousGroups_I3.5.OG0000365.txt	II	5.36e-34	235	352	13119583	13119999	641	1
+OrthologousGroups_I3.5.OG0000365.txt	III	1.92e-26	285	443	1189560	1189009	641	-2
+OrthologousGroups_I3.5.OG0000365.txt	III	4.77e-13	112	283	1191510	1190923	641	-2
+OrthologousGroups_I3.5.OG0000365.txt	III	6.60e-13	9	59	1193724	1193566	641	-2
+OrthologousGroups_I3.5.OG0000365.txt	III	9.90e-09	53	87	1191749	1191645	641	-3
+OrthologousGroups_I3.5.OG0000365.txt	III	1.16e-06	528	624	1185694	1185389	641	-1
+OrthologousGroups_I3.5.OG0000365.txt	III	4.54e-06	50	92	8429615	8429743	641	2
+OrthologousGroups_I3.5.OG0000365.txt	I	1.97e-09	33	138	9863990	9864280	641	2
+OrthologousGroups_I3.5.OG0000365.txt	I	1.97e-09	5	39	9863829	9863936	641	3
+OrthologousGroups_I3.5.OG0000365.txt	X	9.37e-07	6	87	7823683	7823970	641	1
+# TBLASTN 2.4.0+
+# Query: eef_3.5
+# Database: /home/janosch/Dropbox/MSc_project/src/GenePS/test_data/c_elegans.PRJNA13758.WS254.genomic.fa
+# Fields: query acc., subject acc., evalue, q. start, q. end, s. start, s. end, query length, sbjct frame
+# 14 hits found
+eef_3.5	I	0.0	242	840	9164821	9166695	840	1
+eef_3.5	I	9.05e-94	72	251	9164208	9164804	840	3
+eef_3.5	I	9.05e-94	1	72	9163949	9164164	840	2
+eef_3.5	I	3.17e-37	54	414	9864005	9865045	840	2
+eef_3.5	I	1.02e-09	420	569	9865834	9866277	840	1
+eef_3.5	I	1.64e-06	630	752	9867436	9867831	840	1
+eef_3.5	I	2.61e-06	742	826	9868559	9868867	840	2
+eef_3.5	III	5.35e-116	229	580	6010636	6011727	840	1
+eef_3.5	III	5.35e-116	582	838	6011784	6012674	840	3
+eef_3.5	III	4.07e-24	115	252	6010253	6010654	840	2
+eef_3.5	III	4.07e-24	11	115	6009952	6010209	840	1
+eef_3.5	II	4.77e-09	22	170	13117747	13118133	840	1
+eef_3.5	II	6.95e-07	485	565	13120895	13121137	840	2
+eef_3.5	II	2.94e-06	664	828	13121373	13121837	840	3
+# TBLASTN 2.4.0+
+# Query: OrthologousGroups_I3.5.OG0002137.txt
+# Database: /home/janosch/Dropbox/MSc_project/src/GenePS/test_data/c_elegans.PRJNA13758.WS254.genomic.fa
+# Fields: query acc., subject acc., evalue, q. start, q. end, s. start, s. end, query length, sbjct frame
+# 12 hits found
+OrthologousGroups_I3.5.OG0002137.txt	III	0.0	327	677	6010678	6011730	968	1
+OrthologousGroups_I3.5.OG0002137.txt	III	0.0	677	968	6011781	6012722	968	3
+OrthologousGroups_I3.5.OG0002137.txt	III	1.89e-133	1	202	6009580	6010209	968	1
+OrthologousGroups_I3.5.OG0002137.txt	III	1.89e-133	202	326	6010253	6010627	968	2
+OrthologousGroups_I3.5.OG0002137.txt	III	5.26e-06	164	210	8429615	8429740	968	2
+OrthologousGroups_I3.5.OG0002137.txt	I	2.38e-156	329	949	9164830	9166689	968	1
+OrthologousGroups_I3.5.OG0002137.txt	I	2.38e-156	189	326	9164307	9164780	968	3
+OrthologousGroups_I3.5.OG0002137.txt	I	7.42e-36	143	505	9863951	9865063	968	2
+OrthologousGroups_I3.5.OG0002137.txt	I	7.42e-36	112	145	9863808	9863912	968	3
+OrthologousGroups_I3.5.OG0002137.txt	I	6.97e-07	863	944	9868628	9868888	968	2
+OrthologousGroups_I3.5.OG0002137.txt	I	1.58e-06	727	852	9867439	9867831	968	1
+OrthologousGroups_I3.5.OG0002137.txt	II	9.66e-10	128	285	13117747	13118205	968	1
+# TBLASTN 2.4.0+
+# Query: OrthologousGroups_I3.5.OG0001685.txt
+# Database: /home/janosch/Dropbox/MSc_project/src/GenePS/test_data/c_elegans.PRJNA13758.WS254.genomic.fa
+# Fields: query acc., subject acc., evalue, q. start, q. end, s. start, s. end, query length, sbjct frame
+# 7 hits found
+OrthologousGroups_I3.5.OG0001685.txt	I	2.46e-45	355	462	9868592	9868915	466	2
+OrthologousGroups_I3.5.OG0001685.txt	I	1.18e-24	58	183	9864455	9864868	466	2
+OrthologousGroups_I3.5.OG0001685.txt	I	2.84e-17	201	308	9865891	9866268	466	1
+OrthologousGroups_I3.5.OG0001685.txt	I	3.58e-15	21	54	9863981	9864082	466	2
+OrthologousGroups_I3.5.OG0001685.txt	I	3.58e-15	1	23	9863847	9863939	466	3
+OrthologousGroups_I3.5.OG0001685.txt	I	4.15e-07	1	47	9164000	9164164	466	2
+OrthologousGroups_I3.5.OG0001685.txt	I	9.45e-07	353	410	9166420	9166593	466	1
+# TBLASTN 2.4.0+
+# Query: OrthologousGroups_I3.5.OGoverlapp.txt
+# Database: /home/janosch/Dropbox/MSc_project/src/GenePS/test_data/c_elegans.PRJNA13758.WS254.genomic.fa
+# Fields: query acc., subject acc., evalue, q. start, q. end, s. start, s. end, query length, sbjct frame
+# 7 hits found
+overlapp_2137	III	0.0	327	677	6010678	6011730	968	1
+overlapp_2137	III	0.0	677	968	6011781	6012722	968	3
+overlapp_2137	III	1.89e-133	1	202	6009580	6010209	968	1
+overlapp_2137	III	1.89e-133	202	326	6010253	6010627	968	2
+overlapp_2137	III	5.26e-06	164	210	8429615	8429740	968	2
+overlapp_2137	I	2.38e-156	329	949	9164830	9166689	968	1
+overlapp_2137	I	2.38e-156	189	326	9164307	9164780	968	3
+overlapp_2137	I	7.42e-36	143	505	9863951	9865063	968	2
+overlapp_2137	I	7.42e-36	112	145	9863808	9863912	968	3
+overlapp_2137	I	6.97e-07	863	944	9868628	9868888	968	2
+overlapp_2137	I	1.58e-06	727	852	9867439	9867831	968	1
+overlapp_2137	II	9.66e-10	128	285	13117747	13118205	968	1
