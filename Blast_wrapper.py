@@ -123,6 +123,7 @@ class BlastObject:
         self.inferred_regions = None
         self.amount_regions = None
         self.region_tuple_to_fasta = {}
+        self.fasta_region = {} #GK 
 
     def adjust_oversized_end_pos(self, region_seq, start_position):
         return len(region_seq) + start_position - 1
@@ -154,6 +155,7 @@ class BlastObject:
                                     chunk_cov=chunk_cov, query_cov=query_cov, q_len=hits.q_len[0])
                     inferred_regions[subject][query].append(region)
                     self.region_tuple_to_fasta[region] = ">{}\n{}".format(subject, fasta_str)
+                    self.fasta_region[region] = "{}".format(fasta_str) #GK
         self.inferred_regions = inferred_regions
 
 
@@ -214,4 +216,3 @@ if __name__ == "__main__":
             for region_x in blast.inferred_regions[contig][query]:
                     print(region_x)
                     print(blast.region_tuple_to_fasta[region_x])
-

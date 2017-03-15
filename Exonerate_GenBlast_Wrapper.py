@@ -37,6 +37,7 @@ class PredictionObject:
         self.DNA = None
         self.protein = None
         self.gff = None
+        self.aug_gff = None #GK
         self.blast_location = None
         self.gene_start = None
         self.gene_end = None
@@ -52,6 +53,7 @@ class PredictionObject:
             self.DNA = exonerate_obj.target_dna[key_tuple]
             self.protein = exonerate_obj.target_prot[key_tuple]
             self.gff = write_exonerate_gff(exonerate_obj.gff[key_tuple], self.blast_location, self.strand)
+            self.aug_gff = write_exonerate_aug_gff(exonerate_obj.gff[key_tuple], self.blast_location, self.strand, self.region) #GK
             self.strand = self.gff[0].split("\t")[6]
             self.gene_start, self.gene_end = [int(x) for x in self.gff[0].split("\t")[3:5]]
             self.gene_length = abs(self.gene_end - self.gene_start)
@@ -185,6 +187,29 @@ def write_exonerate_gff(gff_list, off_set_tuple, strand):
         new_gff_list.append("\t".join(line))
     return new_gff_list
 
+#GK subroutine
+def write_exonerate_aug_gff(gff_list, off_set_tuple, strand, region):
+    last_phase = 0
+    new_gff_list = []
+    cds_count = 1
+    gene_name, rna_name = "", ""
+    for line in gff_list:
+        line = line.split("\t")
+        line[0] = region.contig + "_" + str(region.s_start) + "_" + str(region.s_end)
+        if "cds" in line[2]:
+            line[2] = "CDS"
+            current_phase = (abs(int(line[4]) - int(line[3])) + 1 + last_phase) % 3
+            line[7] = str(last_phase)
+            if current_phase >= 3:
+                last_phase = 0
+            else:
+                last_phase = current_phase
+            line[-1] = "source=M"
+            cds_count += 1
+        else:
+            continue
+        new_gff_list.append("\t".join(line))
+    return new_gff_list
 
 def make_exonerate_command(model, query_file, region_file):
     cmd = "exonerate {} --softmaskquery no -Q protein -T dna  " \

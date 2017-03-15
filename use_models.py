@@ -29,6 +29,7 @@ from Exonerate_GenBlast_Wrapper import run_exonerate, all_proteins_to_fasta_stri
     isolate_overlapping_predictions, PredictionObject
 from Blast_wrapper import run_tblastn, make_blast_db
 from collections import defaultdict
+from itertools import chain #GK
 
 ########################################################################################################################
 # Global Functions
@@ -378,6 +379,8 @@ class Overseer:
             for contig in self.group_to_blast_obj[group].inferred_regions:
                 for cluster, region_list in self.group_to_blast_obj[group].inferred_regions[contig].items():
                     for region in region_list:
+                        out_re.write( ">" + region.contig + "_" + str(region.s_start) + "_" + str(region.s_end) + "\n") #GK
+                        out_re.write(self.group_to_blast_obj[group].fasta_region[region]+ "\n") #GK
                         if coverage_filter(region) is True:
                             region_fasta = self.group_to_blast_obj[group].region_tuple_to_fasta[region]
                             exo_obj, pred_obj_list = find_best_exonerate_result(region, region_fasta, group, cluster, out_directory)
@@ -421,6 +424,23 @@ class Overseer:
         for idx in range(0, len(file_name_list)):
             with open(self.group_to_out_dir[group] + file_name_list[idx].format(output_type), "w") as out_f:
                 out_f.write("\n".join(protein_dna_gff_array[idx]))
+                out_f.write("\n") #GK
+        return file_count
+
+    #GK subroutine
+    def write_gff_for_augustus(self, group, group_cluster_contig_prediction, output_type="VALID"):
+        gff_array = [[]]
+        file_name_list = ["_{}.gff"]
+        file_count = 0
+        for cluster in group_cluster_contig_prediction[group]:
+            for contig in group_cluster_contig_prediction[group][cluster]:
+                for p_obj in group_cluster_contig_prediction[group][cluster][contig]:
+                    gff_array[0].append("\n".join(p_obj.aug_gff))
+                    file_count += 1
+        for idx in range(0, len(file_name_list)):
+            with open(self.group_to_out_dir[group] + file_name_list[idx].format(output_type), "a") as out_f:
+                out_f.write("\n".join(gff_array[idx]))
+                out_f.write("\n")
         return file_count
 
     #########################################################
@@ -433,6 +453,9 @@ class Overseer:
         for group in self.group_to_out_dir:
             written_valid_files += self.write_fasta_gff_files(group, self.group_by_cluster_by_contig_to_valid_prediction, output_type="VALID")
             written_filtered_files += self.write_fasta_gff_files(group, self.group_by_cluster_by_contig_to_filtered_prediction, output_type="FILTERED")
+            open(self.group_to_out_dir[group] + "_EXONERATE" + ".gff", "w") #GK
+            self.write_gff_for_augustus(group, self.group_by_cluster_by_contig_to_valid_prediction, output_type="EXONERATE") #GK
+            self.write_gff_for_augustus(group, self.group_by_cluster_by_contig_to_filtered_prediction, output_type="EXONERATE") #GK
             if keep:
                 with open(self.group_to_out_dir[group] + "_intermediate_exonerate.txt", "wb") as exo_file:
                     for exof in self.exonerate_file_paths:
@@ -500,6 +523,7 @@ def run_GenePS_on_single_genome(current_genome, genome_location, mode="exonerate
 if __name__ == "__main__":
     __version__ = 0.1
     args = docopt(__doc__)
+    out_re = open("region.fasta", "w") #GK
 
     print("\n[+] Checking Arguments and Dependencies...")
     check_programs("tblastn", "makeblastdb", "exonerate")
